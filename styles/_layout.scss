@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: $bg-colour;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: $secondary-colour;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  color: #8d8d8d;
+  margin-top: 2rem;
+  padding: 0.5em 10em 0.5em 10em;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+@media screen and (max-width: 450px) {
+  footer {
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+  }
+}

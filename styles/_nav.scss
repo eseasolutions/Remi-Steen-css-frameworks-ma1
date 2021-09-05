@@ -1,0 +1,16 @@
+.navbar-brand {
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+}
+.navbar {
+  background-color: $secondary-colour;
+}
+
+.navbar-nav .nav-link {
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.navbar-nav .active > .nav-link {
+  color: $primary-colour;
+}
